@@ -24,7 +24,7 @@ const Skills = () => {
         <div className="md:flex gap-4 justify-center flex-wrap">
           {/* Frontend Section */}
           <div className="relative z-10 flex flex-col justify-start items-start overflow-hidden md:w-3/6 lg:w-5/12 mt-10 p-[2px]">
-            <div className="absolute w-[120%] h-28 -left-20 animate-spin-slow origin-center -z-10 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hidden lg:block"></div>
+            {/* <div className="absolute w-[120%] h-28 -left-20 animate-spin-slow origin-center -z-10 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hidden lg:block"></div> */}
             <MagicCard>
               <h1 className="font-semibold text-xl border-b inline-block">
                 Frontend
@@ -61,7 +61,7 @@ const Skills = () => {
 
           {/* Backend Section */}
           <div className="relative z-10 flex flex-col justify-start items-start overflow-hidden md:w-3/6 lg:w-5/12 mt-10 p-[2px] shadow-2xl">
-            <div className="absolute w-[120%] h-28 -left-20 animate-spin-slow origin-center -z-10 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hidden lg:block"></div>
+            {/* <div className="absolute w-[120%] h-28 -left-20 animate-spin-slow origin-center -z-10 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hidden lg:block"></div> */}
             <MagicCard>
               <h1 className="font-semibold text-xl border-b inline-block">
                 Backend
@@ -94,7 +94,7 @@ const Skills = () => {
 
           {/* Databases Section */}
           <div className="relative z-10 flex flex-col justify-start items-start overflow-hidden md:w-3/6 lg:w-5/12 mt-10 p-[2px]">
-            <div className="absolute w-[120%] h-28 -left-20 animate-spin-slow origin-center -z-10 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hidden lg:block"></div>
+            {/* <div className="absolute w-[120%] h-28 -left-20 animate-spin-slow origin-center -z-10 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hidden lg:block"></div> */}
             <MagicCard>
               <h1 className="font-semibold text-xl border-b inline-block">
                 Databases
@@ -127,7 +127,7 @@ const Skills = () => {
 
           {/* Tools and Technologies Section */}
           <div className="relative z-10 flex flex-col justify-start items-center overflow-hidden md:w-3/6 lg:w-5/12 mt-10 p-[2px]">
-            <div className="absolute w-[120%] h-28 -left-20 animate-spin-slow origin-center -z-10 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hidden lg:block"></div>
+            {/* <div className="absolute w-[120%] h-28 -left-20 animate-spin-slow origin-center -z-10 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hidden lg:block"></div> */}
             <MagicCard>
               <h1 className="font-semibold text-xl border-b inline-block">
                 Tools and Technologies

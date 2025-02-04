@@ -30,7 +30,7 @@ const ProjectCard = (props) => {
         <div className={`w-full md:w-3/6 p-1 relative md:flex flex-col justify-evenly ${infoAlign == "right"? "items-end":""}  z-30`}>
           {/* <div className="py-4 hidden md:block"></div> */}
           <h1 className="font-bold text-4xl py-1 my-2">{cardTitle}</h1>
-          <div className="w-full md:w-[120%] bg-slate-800 py-3 my-3 px-2  rounded-sm text-gray-300 ">
+          <div className="w-full md:w-[120%] bg-slate-800 py-3 my-3 px-2 backdrop-filter backdrop-blur-sm bg-opacity-40 rounded-sm text-gray-300 ">
             <p className="hidden md:block" dir={`${infoAlign == "right"? "rtl":"ltr"}`}>
              {cardDescription}
             </p>
